@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/C:/Users/Sotex/Uni/PRI/Aula4/dtd-xsl/project_record.dtd">
+<pr>
+    <meta>
+        <key>PRI2020-teste</key>
+        <title>Teste de PRI</title>
+        <bdate>18 Janeiro</bdate>
+        <edate>18 Janeiro</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="a80624">
+            <name>Sofia Teixeira</name>
+            <email>a80624@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <paragrafo>Pergunta 1.1</paragrafo>
+        <paragrafo>A falta de aspas no parametro rep foi resolvido pelo findall e replaceall do visual code.</paragrafo>
+        <paragrafo>Para além disso, havia instancias de falha de virgulas entre parametros, que foi resolvido à mao.</paragrafo>
+        <paragrafo>Da mesma forma, se adicionou aspas que faltava a duas datas.</paragrafo>
+        <paragrafo>Por fim, corri o ficheiro cleanse.js que fez as restantes modificações.</paragrafo>
+       
+        <paragrafo>Pergunta 1.3</paragrafo>
+        <paragrafo>mongoimport -d PRI2020 -c casamentos --jsonArray casamentos_fixed.json  </paragrafo>
+    
+    
+        <paragrafo>Pergunta 2.1.2</paragrafo>
+        <paragrafo>GET http://clav-api.di.uminho.pt/v2/classes?nivel=4&token=</paragrafo>
+        <paragrafo>pm.test("test 1", function() {console.log(pm.response.json().length)})</paragrafo>
+        <paragrafo>resposta: 116</paragrafo>
+        
+        <paragrafo>Pergunta 2.1.3</paragrafo>
+        <paragrafo>GET http://clav-api.di.uminho.pt/v2/classes/c750.30/descendencia?token=</paragrafo>
+        <paragrafo>pm.test("test 1", function() {console.log(pm.response.json().length)})</paragrafo>
+        <paragrafo>resposta: 5</paragrafo>
+
+        <paragrafo>Pergunta 2.1.4</paragrafo>
+        <paragrafo>GET http://clav-api.di.uminho.pt/v2/classes?nivel=4&token=</paragrafo>
+        <paragrafo>pm.test("test 1", function() {console.log(pm.response.json().length)})</paragrafo>
+        <paragrafo>resposta: 6</paragrafo>
+
+
+        <paragrafo>Pergunta 2.2</paragrafo>
+        <paragrafo>Correr servidor com o npm e abrir em http://localhost:8002/</paragrafo>
+
+    </abstract>
+</pr>
